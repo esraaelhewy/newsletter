@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", serif;
+}
+.container{
+    text-align: center;
+    margin:50px 23%;
+
+}
+header h1{
+    margin:50px 0px 20px 0px ;
+    font-size: 3rem;
+}
+main > p{
+    font-size: 1.25rem;
+    color:#6C727F;
+    margin-bottom:60px;
+}
+main > form{
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08);
+    background-color: #F9FAFB;
+    width:70%;
+    margin:0px auto;
+    padding:15px;
+    border-radius: 10px;
+}
+main > form > input{
+    width:98%;
+    padding:16px;
+    border:none;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border:1px solid #E5E7EB;
+}
+input[placeholder]{
+    text-align: center;
+    font-size: 1rem;
+    color: #394150;
+    font-weight: 500;
+}
+main > form > button{
+    width:98%;
+    padding:16px;
+    border:none;
+    background-color: #E5E7EB;
+    border-radius: 8px;
+    background-color: #284BCE;
+    color:#FFFFFF;
+    margin:16px 0px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+form span{
+    font-size: 14px;
+    color:#6C727F;
+    font-weight: 400;
+}
